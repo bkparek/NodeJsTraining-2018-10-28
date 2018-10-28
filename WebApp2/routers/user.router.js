@@ -1,0 +1,17 @@
+const express = require("express");
+
+const router = new express.Router();
+
+router.get("/details",function(request,response){
+    response.send("<h1> User Details </h1>");
+    });
+
+    module.exports = router;
+
+router.get("/",function(request,response){
+    response.send("<h1> User list </h1>");
+    });
+    
+    module.exports = router;
+    
+    
